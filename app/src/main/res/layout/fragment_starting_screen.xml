@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".StartingScreenFragment"
+        android:gravity="center_horizontal"
+
+
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/talkup1"
+            android:layout_marginTop="120dp"
+            android:id="@+id/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Come Let's Chat"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:fontFamily="@font/spartanextrabold800"
+            android:id="@+id/title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed by Amaan"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:fontFamily="@font/spartanmedium500"
+            android:id="@+id/credit"
+            android:layout_marginTop="170dp" />
+
+
+    </LinearLayout>
+</layout>
